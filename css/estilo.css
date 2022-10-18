@@ -4,9 +4,31 @@
 */
 
 body{
+    /*
+        1-Define opacidade 
+        2-Define efeito de gradiente
+        3-Tornar o background fixo
+    */
     background:url(../imagens/capa.png),
     url(../imagens/ruido.png),
-    linear-gradient(50deg,#ff4169,#7c26f8);
+    linear-gradient(50deg,#ff4169,#7c26f8); 
     background-attachment: fixed;
 
+}
+.navbar-transparent-color{
+    background:rgba(0,0,0, 0.6);
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color:rgb(255, 255, 255)
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color:rgb(86, 165, 255);
+}
+
+.divisor{
+    width: 1px;
+    background: white;
+    margin: 12px 15px;
 }
