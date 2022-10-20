@@ -47,12 +47,27 @@ body{
     text-align: center;
 }
 /*TIPOGRAFIA*/
+p{
+    font-size: 16px;
+}
 .titles-1{
     font-weight: 900 ;/*Negrito 0-1000*/
     letter-spacing: 0.02em;
     margin-bottom: 15px;
     font-size: 68px;
 } 
+
+.titles-2{
+    font-weight: 600;
+    font-size: 36px;
+    color: #7c26f8;
+}
+
+.titles-3{
+    font-weight: 400;
+    font-size: 24px;
+    color: #7c26f8;
+}
 
 /**BOTÕES**/
 /** DEFAULT **/
@@ -85,9 +100,38 @@ body{
 
 
 
-/** ON-HOVER **/
+/*MAIN CONTENT*/
+#servicos{
+    background:white;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
 
+/*Define um espaçamento entre uma e outra linha*/
+.albuns{
+    padding:10px 0;
+}
 
+.row-rotation-fill{
+    padding: 15px;
+    transform: rotate(30deg);
+}
+
+#recursos {
+	color: white;
+}
+
+#servicos h2, h3 {
+	color: #7c25f8;
+}
+
+#recursos h2 {
+	color: white;
+}
+
+#recursos h3 {
+	color: #9bf0e1;
+}
 
 /*Extra small*/
 @media (max-width: 575.98px) { 
@@ -169,6 +213,9 @@ body{
      justify-content: center;
      
 }
+p{
+    font-size: 18px;
+}
 
 }
 
@@ -189,6 +236,9 @@ body{
         -webkit-border-radius:500px;
         -moz-border-radius:500px;
         -o-border-radius:500px;
+    }
+    p{
+        font-size: 18px;
     }
     
  }
