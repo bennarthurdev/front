@@ -46,28 +46,7 @@ body{
     width: 100%;
     text-align: center;
 }
-/*TIPOGRAFIA*/
-p{
-    font-size: 16px;
-}
-.titles-1{
-    font-weight: 900 ;/*Negrito 0-1000*/
-    letter-spacing: 0.02em;
-    margin-bottom: 15px;
-    font-size: 68px;
-} 
 
-.titles-2{
-    font-weight: 600;
-    font-size: 36px;
-    color: #7c26f8;
-}
-
-.titles-3{
-    font-weight: 400;
-    font-size: 24px;
-    color: #7c26f8;
-}
 
 /**BOTÕES**/
 /** DEFAULT **/
@@ -131,6 +110,55 @@ p{
 
 #recursos h3 {
 	color: #9bf0e1;
+}
+/**RODAPÉ **/
+#footer{
+    background-color:rgb(0,0,0) ;
+    padding : 50px;
+    position: relative;
+}
+#footer h4{
+    color: #919496;
+    font-size:0.8em;
+}
+
+#footer .navbar-nav a{
+    color: #fff;
+    font-size:0.8em;
+}
+
+#footer .navbar-nav a:hover{
+    color: #9bf0e1;
+    font-size:0.8em;
+}
+#footer img{
+    margin: 15px;
+}
+
+
+/***QUERIES***/
+
+/*TIPOGRAFIA*/
+p{
+    font-size: 16px;
+}
+.titles-1{
+    font-weight: 900 ;/*Negrito 0-1000*/
+    letter-spacing: 0.02em;
+    margin-bottom: 15px;
+    font-size: 68px;
+} 
+
+.titles-2{
+    font-weight: 600;
+    font-size: 36px;
+    color: #7c26f8;
+}
+
+.titles-3{
+    font-weight: 400;
+    font-size: 24px;
+    color: #7c26f8;
 }
 
 /*Extra small*/
@@ -242,3 +270,6 @@ p{
     }
     
  }
+
+
+ 
